@@ -5,6 +5,7 @@ define([
     'views/login',
     'views/game',
     'views/registration',
+    'views/chat',
     'views/viewmanager',
     'models/session'
 ], function(
@@ -14,6 +15,7 @@ define([
     LoginView,
     GameView,
     RegistrationView,
+    ChatView,
     ViewManager,
     session
 ){
@@ -22,7 +24,8 @@ define([
                 scoreboard:ScoreboardView,
                 game:GameView,
                 login:LoginView,
-                registration:RegistrationView
+                registration:RegistrationView,
+                chat: ChatView
     };
     var manager = new ViewManager(views, '.b-page');
     var Router = Backbone.Router.extend({
@@ -32,6 +35,7 @@ define([
             'game': 'gameAction',
             'login': 'loginAction',
             'registration': 'registrationAction',
+            'chat' : 'ChatAction',
             '*default': 'defaultActions'
         },
         mainAction: function() {
@@ -52,6 +56,9 @@ define([
         },
         registrationAction: function() {
             manager.show('registration');
+        },
+        ChatAction: function () {
+            manager.show('chat');
         },
         defaultActions: function () {
             this.mainAction();

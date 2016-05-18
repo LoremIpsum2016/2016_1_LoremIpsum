@@ -13,7 +13,7 @@ a
     left:0;
     width: 100vw;
     height: 100vh;
-    background-size: 100%;
+    background-size: cover;
 }
 .b-header
 {
@@ -178,4 +178,43 @@ a
 .b-back
 {
     float: left;
+    position:absolute;
+}
+
+.b-transbox {
+
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.b-transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.b-transbox__send-message {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    min-height:70px;
+
+}
+.b-transbox_inline {
+    display: inline-block;
+    min-width:40px;
+    min-height: 25px;
+    border: none !important;
+}
+.b-transbox_inline  > a
+{
+    color: #f2cbbc;
+}
+.b-transbox_inline  > a:hover{
+    color: #31b0d5;
 }

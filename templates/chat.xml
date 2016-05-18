@@ -1,0 +1,73 @@
+<fest:template xmlns:fest="http://fest.mail.ru">
+    <fest:include  src="./back_button.xml"/>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 col-md-offset-1">
+                <div class="b-transbox alert" style="height:70vh; overflow-y: scroll;">
+                    <span class="">
+                        <p style="color: #3fb0ac; font-size: 1.5em">Oleg:</p>
+                        <p style="margin-top:-28px; color: #173e43;  font-weight:bold;">Hello,world!</p>
+                    </span>
+
+                    <span class="">
+                        <p style="color: #3fb0ac; font-size: 1.5em">OlegLalka:</p>
+                        <p style="margin-top:-28px; color: #173e43;  font-weight:bold;">:)</p>
+                    </span>
+                </div>
+
+                <div class="b-transbox__send-message alert">
+                    sdfsdsssadsadasdassssss
+                </div>
+                <button class="btn btn-primary center-block">
+                    Send message
+                </button>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="wrapper">
+                    <div class="b-transbox b-transbox_inline alert alert-success" style="max-width:12vw; min-width:8vw;">
+                        <p style="text-align: center">Oleg</p>
+                    </div>
+                    <div class="b-transbox_inline "><a>Invite</a></div>
+
+                </div>
+
+                <div class="wrapper">
+                    <div class="b-transbox b-transbox_inline alert alert-success" style="max-width:12vw; min-width:8vw;">
+                        <p style="text-align: center">Sasha</p>
+                    </div>
+                    <div class="b-transbox_inline "><a>Invite</a></div>
+
+                </div>
+
+                <div class="wrapper">
+                    <div class="b-transbox b-transbox_inline alert alert-success " style="max-width:12vw; min-width:8vw;">
+                        <p style="text-align: center">Danil</p>
+                    </div>
+                    <div class="b-transbox_inline "><a>Invite</a></div>
+
+                </div>
+
+                <div class="wrapper">
+                    <div class="b-transbox b-transbox_inline alert alert-success" style="max-width:12vw; min-width:8vw;">
+                        <p style="text-align: center">Kirill</p>
+                    </div>
+                    <div class="b-transbox_inline "><a>Invite</a></div>
+
+                </div>
+
+                <div class="wrapper">
+                    <div class="b-transbox b-transbox_inline alert alert-success " style="max-width:12vw; min-width:8vw;">
+                        <p style="text-align: center">Oleglalka</p>
+                    </div>
+                    <div class="b-transbox_inline "><a>Invite</a></div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</fest:template>
